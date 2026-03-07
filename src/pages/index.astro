@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TermList from '../components/TermList';
+import { getCollection } from 'astro:content';
+
+const allTerms = await getCollection('terms');
+---
+
+<Layout title="معجم المصطلحات | Terminology Dictionary">
+	<div class="py-16 text-center">
+		<h1 class="text-6xl md:text-8xl font-bold text-slate-900 tracking-tight">
+			معجم المصطلحات
+		</h1>
+		<p class="mt-6 text-2xl text-slate-500 font-medium max-w-3xl mx-auto leading-relaxed">
+			قاعدة بيانات منسقة للمصطلحات التقنية وترجماتها العربية الدقيقة.
+		</p>
+	</div>
+
+	<TermList client:load initialTerms={allTerms} />
+</Layout>
+
