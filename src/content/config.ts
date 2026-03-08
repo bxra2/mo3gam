@@ -5,7 +5,8 @@ const termsCollection = defineCollection({
   schema: z.object({
     term: z.string(),
     translation: z.string(),
-    category: z.enum(['قديم/مستعاد', 'كلمة جديدة', 'جهد شخصي', 'مصطلح منحوت', 'إسهام غير معروف']).optional(),
+    category: z.enum(['قديم/مستعاد', 'كلمة جديدة', 'جهد شخصي', 'معجم مصطلحات', 'إسهام غير معروف']).optional(),
+    derivation: z.enum(['نحت', 'اشتقاق', 'قياس', 'دخيل', 'تعريب']).optional(),
     references: z.array(z.object({
       label: z.string(),
       url: z.string().optional(),

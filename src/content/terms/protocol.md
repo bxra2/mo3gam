@@ -2,6 +2,7 @@
 title: 'Protocol'
 term: 'Protocol'
 translation: 'ميفاق'
+derivation: 'اشتقاق'
 category: 'قديم/مستعاد'
 
 references:

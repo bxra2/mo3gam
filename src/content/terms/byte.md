@@ -2,6 +2,7 @@
 title: 'Byte'
 term: 'Byte'
 translation: 'أُثمون'
+derivation: 'اشتقاق'
 category: 'كلمة جديدة'
 
 references:

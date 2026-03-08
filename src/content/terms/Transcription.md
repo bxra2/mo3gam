@@ -2,7 +2,8 @@
 title: 'Transcription'
 term: 'Transcription'
 translation: 'نقصوة'
-category: 'مصطلح منحوت'
+category: 'معجم مصطلحات'
+derivation: 'نحت'
 
 references:
   - label: 'ويكيبيديا'

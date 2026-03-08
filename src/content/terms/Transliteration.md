@@ -2,7 +2,8 @@
 title: 'Transliteration'
 term: 'Transliteration'
 translation: 'نقحرة'
-category: 'مصطلح منحوت'
+category: 'معجم مصطلحات'
+derivation: 'نحت'
 
 references:
   - label: 'ويكيبيديا'
