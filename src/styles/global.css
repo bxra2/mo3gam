@@ -16,6 +16,19 @@
     --muted: #64748b;
     --border: #e5e7eb;
     --ring: rgba(30, 58, 138, 0.2);
+    --text: #020617;
+  }
+
+  .dark {
+    --background: #020617; /* Slate 950 */
+    --foreground: #f8fafc; /* Slate 50 */
+    --card: #0f172a; /* Slate 900 */
+    --accent: #38bdf8; /* Sky 400 */
+    --accent-foreground: #020617;
+    --muted: #94a3b8; /* Slate 400 */
+    --border: #1e293b;
+    --ring: rgba(56, 189, 248, 0.2);
+    --text: #f8fafc;
   }
 
   body {
@@ -30,6 +43,7 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Amiri', serif;
     font-weight: 700;
+    color: var(--text) !important;
   }
 }
 
