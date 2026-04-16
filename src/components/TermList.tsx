@@ -48,7 +48,7 @@ export default function TermList({ initialTerms }: TermListProps) {
         {filteredTerms.map((term, index) => (
           <motion.a
             key={term.slug}
-            href={`/terms/${term.slug}`}
+            href={`${import.meta.env.BASE_URL}terms/${term.slug}`}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.03 }}
