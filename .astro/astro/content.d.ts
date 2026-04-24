@@ -197,6 +197,13 @@ declare module 'astro:content' {
   collection: "terms";
   data: InferEntrySchema<"terms">
 } & { render(): Render[".md"] };
+"tag.md": {
+	id: "tag.md";
+  slug: "tag";
+  body: string;
+  collection: "terms";
+  data: InferEntrySchema<"terms">
+} & { render(): Render[".md"] };
 };
 
 	};
